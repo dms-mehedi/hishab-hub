@@ -3,7 +3,7 @@
  * (inlined by Next.js), falling back to the default workers.dev URL.
  */
 export const SITE_URL: string = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://hishab-hub.workers.dev"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://hishab-hub.vercel.app"
 ).replace(/\/+$/, "");
 
 export const SITE_NAME = "হিসাব হাব";
